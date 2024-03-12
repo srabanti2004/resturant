@@ -1,0 +1,1101 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>resturent</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="stylesheet" href="css/resturent2.css">
+  <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
+  <link rel="stylesheet" href="bootstrap/css/bootstrap-grid.min">
+  <link rel="stylesheet" type="text/css" href="font-awesome-4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+
+    <!-- owl carousel link -->
+  <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+   <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+  <link rel="manifest" href="site.webmanifest">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+<body>
+
+  <!--top-header-->
+
+  <section class="overl">
+   <div class="row top_header">
+    <div class="col-md-8 mt-2">
+        <a href="#" class="ml-4 text-light ahover"><i class="bi bi-telephone-fill"></i>  +78905 45678 33389</a>
+        <a href="#" class="ml-4 text-light ahover"><i class="bi bi-envelope-fill"></i>   hotel  classy451.org</a>
+    </div>
+     <div class="col-md-1"></div>
+     <div class="col-md-3 mt-2 ">
+      <a href="https://www.facebook.com/profile.php?id=100068118320959"><i class="bi bi-facebook header_icon text-light ml-4"></i></a>
+      <a href="#"><i class="bi bi-youtube header_icon text-light"></i></a>
+      <a href="https://api.whatsapp.com/send?phone=9883129612"><i class="bi bi-whatsapp header_icon text-light"></i></a>
+      <a href="#"><i class="bi bi-twitter header_icon text-light"></i></a>
+     </div>
+  </div>
+
+<!--nav-->
+
+<nav class="navbar navbar-expand-lg nev">
+  <div class="nav w-100 "id="myHeader">
+    <a class="navbar-brand" href="#"><h3 class="ml-5 mt-1 texture"><b>RESTAURANTLY</b></h3></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+      <ul class="navbar-nav ml-4">
+        <li class="nav-item ">
+          <a class="nav-link active v text-warning itemx" aria-current="page" href="#"><b>HOME</b></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link v ml-2  child_underline item3 fonts_color" href="about.html">ABOUT</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link v ml-2  child_underline item3 fonts_color" href="contact.html">CONTACT</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link v ml-2  child_underline item3 fonts_color" href="service.html">SERVICE</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link dropdown-toggle v ml-2 item3 fonts_color" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            DELIVARY
+          </a>
+          <ul class="dropdown-menu border border-warning text-dark bg-dark text-light drop" aria-labelledby="navbarDropdownMenuLink">
+            <li><a class="dropdown-item text-light" href="online delivary.html">Online Delivary</a></li>
+            <li><a class="dropdown-item text-light" href="blog.html">BLOG</a></li>
+            <li><a class="dropdown-item text-light" href="treanding.html">Trending</a></li>
+          </ul>
+          <li class="nav-item">
+          <a class="nav-link v ml-2 fonts_color child_underline item3" href="gallery.html">GALLERY</a>
+        </li>
+          <li class="nav-item">
+          <a class="nav-link v ml-2 fonts_color item3" href="team.html">TEAM</a>
+        </li>
+        <a class="nav-link v1 book_bord text-light text-center ml-5" href="login.html">BOOKING</a>
+        <div class="mb-3"></div>
+        <button class="open-button bg-warning text-dark" onclick="openForm()"><b>LOGIN NOW</b></button>
+
+<!-- The form -->
+
+<div class="form-popup" id="myForm">
+  <form action="/action_page.php" class="form-container">
+    <i class="bi bi-x-circle" class=" cancel bg-warning" onclick="closeForm()"></i>
+    <h2 class="text-center"><b>Login</b></h2>
+    <label for="email"><b>Email</b></label>
+    <input type="text" placeholder="Enter Email" name="email" required>
+
+    <label for="psw"><b>Password</b></label>
+    <input type="password" placeholder="Enter Password" name="psw" required>
+
+    <button type="submit" class="btn" id="a">Login</button>
+        <p class="text-center"><a href="login.html" class="text-dark">Create a new Account?</a></p>
+        <div class="ic_style text-center ic_style">
+      <i class="bi bi-facebook"></i>
+      <i class="bi bi-twitter"></i>
+      <i class="bi bi-linkedin"></i>
+      <a href="resturent.html" class="text-dark"><i class="bi bi-house-up-fill"></i></a>
+</div>
+</form>
+</div>
+</div>
+</div>
+</nav>
+
+<!--carausel-->
+
+<div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active paralx1">
+      <div class="par_text">
+  <h1 class="text-light text">Western Food<span class="texts"> Restaurant</span></h1>
+  <p>Delivering great food for more than 18 years!</p>
+  <button type="button" class="text-light button ml-4 mt-3"data-aos="zoom-in" data-aos-delay="0">OUR MENU</button>
+    <button type="button" class="text-light button ml-3 mt-3"data-aos="zoom-in" data-aos-delay="0">BOOK A TABLE</button>
+  </div>
+    </div>
+    <div class="carousel-item paralx2">
+      <div class="par_text">
+  <h1 class="text-light text">Fast Food<span class="texts"> Restaurant</span></h1>
+  <p>Delivering great food for more than 18 years!</p>
+  <button type="button" class="text-light button ml-4 mt-3"data-aos="zoom-in" data-aos-delay="0">OUR MENU</button>
+   <button type="button" class="text-light button ml-3 mt-3"data-aos="zoom-in" data-aos-delay="0">BOOK A TABLE</button>
+    </div>
+  </div>
+    <div class="carousel-item paralx3">
+            <div class="par_text">
+  <h1 class="text-light text">Indian Food<span class="texts"> Restaurant</span></h1>
+  <p>Delivering great food for more than 18 years!</p>
+  <button type="button" class="text-light button ml-4 mt-3"data-aos="zoom-in" data-aos-delay="0">OUR MENU</button>
+   <button type="button" class="text-light button ml-3 mt-3"data-aos="zoom-in" data-aos-delay="0">BOOK A TABLE</button>
+    </div>
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+    <span class="visually-hidden"></span>
+  </button>
+</div>
+</section>
+
+<script type="text/javascript">
+  function openForm() {
+  document.getElementById("myForm").style.display = "block";
+}
+
+function closeForm() {
+  document.getElementById("myForm").style.display = "none";
+}
+</script>
+
+        <div class="pop-up-video" id="video-poup" onclick="hide_video();">
+          <i class="bi bi-x-square"></i>
+          <video autoplay loop muted>
+            <source src="img/cofee video.mp4" type="video/mp4">
+          </video>
+        </div>
+
+<!--about-->
+
+<section class="overl">
+<div class="about background">
+  <div class="row text-justify fonts_about">
+    <div class="col-md-5 mt-5 ml-3 boxs">
+      <h4 class="text-light mt-5">Voluptatem dignissimos provident quasi</h4> <h4 class="text-light">corporis voluptates sit assumenda.</h4>
+      <p class="text-light fonts">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+      <p class=" text-light fonts"><i class="bi bi-arrow-right-circle-fill"></i>   Ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+      <p class=" text-light fonts"><i class="bi bi-arrow-right-circle-fill"></i>   Ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+      <p class=" text-light fonts"><i class="bi bi-arrow-right-circle-fill"></i>   Ullamco laboris nisi ut aliquip ex ea commodo consequat.Ullamco laboris nisi utaliquip exea commodo consequat.Ullamco laboris nisi ut aliquipt</p>
+
+      <p class=" text-light fonts mt-3"> Ullamco laboris nisi ut aliquip ex ea commodo consequat.Ullamco laboris nisi utaliquip exea commodo consequat.Ullamco laboris nisi ut aliquipt Ullamco laboris nisi ut aliquipt </p>
+    </div>
+    <div class="col-md-6 mt-5">
+      <div class="borders">
+      <div class="about_img mt-1"data-aos="zoom-in" data-aos-delay="0" ></div>
+    </div>
+      <div class="mb-5"></div>
+    </div>
+  </div>
+</div>
+</section>
+
+<!--why choose-->
+
+<section class="ovrerl">
+  <div class="container-fluid choose">
+    <div class="why">
+    <p class="fonts text-light ml-5 why pt-5">WHY US ___________</p>
+    <h2 class="texts ml-5">Why Choose Our Restaurant</h2>
+  </div>
+  <div class="container mx-auto">
+  <div class="row mt-5 space">
+    <div class="col-md-3 li mt-5" data-aos="flip-left" data-aos-delay="0">
+        <p class="mt-5 ml-4 c-text">01</p>
+        <h4 class="text-light ml-3">Lorem Ipsum</h4>
+        <p class="text-light text-justify ml-3">Ulamco laboris nisi ut aliquip ex ea commodo consequat. Et consectetur ducimus vero placeat</p>
+      </div>
+
+    <div class="col-md-3 li mt-5" data-aos="flip-right" data-aos-delay="0">
+      <p class="mt-5 ml-4 c-text">02</p>
+        <h4 class="text-light ml-3">Repellat Nihil</h4>
+        <p class="text-light text-justify ml-3">Dolorem est fugiat occaecati voluptate velit esse. Dicta veritatis dolor quod et vel dire leno para dest</p>
+    </div>
+
+    <div class="col-md-3 li mt-5 " data-aos="flip-left" data-aos-delay="0">
+      <p class="mt-5 ml-4 c-text">03</p>
+        <h4 class="text-light ml-3">Ad ad velit qui</h4>
+        <p class="text-light text-justify ml-3">Molestiae officiis omnis illo asperiores. Aut doloribus vitae sunt debitis quo vel nam quis</p>
+          </div>
+  <div class="mb-5"></div>
+      <div class="mb-4"></div>
+    </div>
+  </div>
+</section>
+
+<!--specials-->
+
+<section class="overl background">
+  <div class="container mt-5 " >
+  <h3 class=" text-light">_______DELICIOUS MENU</h3>
+  <div class="row mt-5">
+    <div class="col-md-3 mt-2 col-lg-4 col-sm-6 col-md-6" data-aos="fade-left" data-aos-delay="0">
+      <div class="main">
+      <div class="test1 test tests"></div>
+      <div class="test_text">
+        <h4 class="text-center fonts mt-3">Pestry</h4>
+        <p class="text-center para">Ipsum ipsum clita erat amet dolor justo diam</p>
+      </div>
+      <div class="mb-4"></div>
+    </div>
+    <div class="mb-4"></div>
+    </div>
+
+    <div class="col-md-3 mt-2 col-lg-4 col-sm-6 col-md-6" data-aos="fade-right" data-aos-delay="0">
+      <div class="main">
+      <div class="test2 test tests"></div>
+      <div class="test_text">
+        <h4 class="text-center fonts mt-3">Veg Burger</h4>
+        <p class="text-center para">Ipsum ipsum clita erat amet dolor justo diam</p>
+      </div>
+      <div class="mb-4"></div>
+    </div>
+          <div class="mb-4"></div>
+    </div>
+
+    <div class="col-md-3 mt-2 col-lg-4 col-sm-6 col-md-6" data-aos="fade-left" data-aos-delay="0">
+      <div class="main">
+      <div class="test3 test tests"></div>
+      <div class="test_text">
+        <h4 class="text-center fonts mt-3">Appolo Fish</h4>
+        <p class="text-center para">Ipsum ipsum clita erat amet dolor justo diam</p>
+      </div>
+      <div class="mb-4"></div>
+    </div>
+    <div class="mb-4"></div>
+    </div>
+
+    <div class="col-md-3 mt-2 col-lg-4 col-sm-6 col-md-6" data-aos="fade-right" data-aos-delay="0">
+      <div class="main">
+      <div class="test4 test tests"></div>
+      <div class="test_text">
+        <h4 class="text-center fonts mt-3">Fish Armis</h4>
+        <p class="text-center para">Ipsum ipsum clita erat amet dolor justo diam</p>
+      </div>
+      <div class="mb-4"></div>
+    </div>
+    <div class="mb-4"></div>
+    </div>
+
+    <div class="col-md-3 mt-2 col-lg-4 col-sm-6 col-md-6" data-aos="fade-left" data-aos-delay="0">
+      <div class="main">
+      <div class="test5 test tests"></div>
+      <div class="test_text">
+        <h4 class="text-center fonts mt-3">Patharani Masi</h4>
+        <p class="text-center para">Ipsum ipsum clita erat amet dolor justo diam</p>
+      </div>
+            <div class="mb-4"></div>
+    </div>
+          <div class="mb-4"></div>
+    </div>
+
+    <div class="col-md-3 mt-2 col-lg-4 col-sm-6 col-md-6" data-aos="fade-right" data-aos-delay="0">
+    <div class="main">
+    <div class="test6 test tests"></div>
+      <div class="test_text">
+        <h4 class="text-center fonts mt-3">Pestry</h4>
+        <p class="text-center para">Ipsum ipsum clita erat amet dolor justo diam</p>
+      </div>
+      <div class="mb-4"></div>
+    </div>
+          <div class="mb-4"></div>
+    </div>
+
+    <div class="col-md-3 mt-2 col-lg-4 col-sm-6 col-md-6" data-aos="fade-left"data-aos-delay="0">
+      <div class="main">
+      <div class="test7 test tests"></div>
+      <div class="test_text">
+        <h4 class="text-center fonts mt-3">Kajun Fish</h4>
+        <p class="text-center para">Ipsum ipsum clita erat amet dolor justo diam</p>
+      </div>
+      <div class="mb-4"></div>
+    </div>
+          <div class="mb-4"></div>
+    </div>
+
+        <div class="col-md-3 mt-2 col-lg-4 col-sm-6 col-md-6" data-aos="fade-right" data-aos-delay="0">
+      <div class="main">
+      <div class="test2 test tests"></div>
+      <div class="test_text">
+        <h4 class="text-center fonts mt-3">Veg Burger</h4>
+        <p class="text-center para">Ipsum ipsum clita erat amet dolor justo diam</p>
+      </div>
+      <div class="mb-4"></div>
+    </div>
+    </div>
+    <div class="mb-4"></div>
+
+    <div class="col-md-3 mt-2 col-lg-4 col-sm-6 col-md-6" data-aos="fade-right" data-aos-delay="0">
+      <div class="main">
+      <div class="test8 test tests"></div>
+      <div class="test_text">
+        <h4 class="text-center fonts mt-3">Apolo Fish</h4>
+        <p class="text-center para">Ipsum ipsum clita erat amet dolor justo diam</p>
+      </div>
+      <div class="mb-4"></div></div>
+    </div>
+
+  </div>
+<div class="mb-5"></div>
+</div>
+</section>
+
+<!--check-->
+
+<section class="overl">
+  <div class="container-fluid abouts">
+  <div class="container">
+    <p class="text-light pt-5">SPECIALS ____________</p>
+    <p class="texts">Check Our Specials</p>
+    <div class="row">
+      <div class="col-md-3">
+    <div class="col_text text-light">
+          <ul class="all_texts mt-2 text-center">
+                <li class="l1 text-center">30 Days Trial Features</li>
+                <li>Synced To Cloud Database</li>
+                <li>10 Hours Of Support</li>
+                <li>Social Media Integration</li>
+                <li>Unlimited Features</li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-md-5">
+            <h3 class="text-light">Architecto ut aperiam autem id</h3>
+            <p class="fonts text-light">Qui laudantium consequatur laborum sit qui ad sapiente dila parde sonata raqer a videna mareta paulona marka</p>
+            <p class="text-light fonts">Et nobis maiores eius. Voluptatibus ut enim blanditiis atque harum sint. Laborum eos ipsum ipsa odit magni. Incidunt hic ut molestiae aut qui. Est repellat minima eveniet eius et quis magni nihil.</p>
+          </div>
+          <div class="col-md-3">
+            <div class="food" data-aos="zoom-in-right" data-aos-delay="0">
+            </div>
+            <div class="mb-5"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+</section>
+
+<!--contact from-->
+
+<section class="overl background">
+    <div class="row">
+    <div class="col-md-12"><h2 class=" mt-5 ml-5 texture"data-aos="zoom-in" data-aos-delay="0"><b>Our Contact info</b></h2></div>
+  </div>
+  <div class="pb-3"></div>
+</div>
+  <div class="container-fluid contact mt-3">
+    <div class="row top_part mx-auto">
+      <div class="col-md-12">
+        <h3 class="text-center text-light">Visit Us For Booking Table</h3>
+        <div class="col-md-7 mx-auto">
+          <p class="text-center text-light p4">Morbi accumsan id nisi in ullamcorper. Nullam leo diam maxi mus vitae interdum non, pharetra sit amet est. Aenean sagit tis tellus eu lacus tristique eleifend . Aenean sagit tis tellus eu lacus tristique eleifend.</p>
+        </div>
+      </div>
+        <div class="row mx-auto">
+        <div class="col-md-10 mx-auto">
+          <button type="button" class="btn btn text-light button1 border border-light  ml-2"data-aos="zoom-in" data-aos-delay="0">Book a Table</button>
+        </div>
+      </div>
+    </div>
+  </div>
+    <div class="row box space">
+      <div class="col-md-4"data-aos="zoom-in" data-aos-delay="0">
+        <div class="box1  mx-auto">
+          <div class="circle mt-2 ml-4">
+            <i class="bi bi-bar-chart-line-fill icons1 "></i>
+          </div>
+          <div class="circle1">
+            <p class="text-center text-light">accumsan id nisi in ullamcorper Nullam.</p>
+          </div>
+        </div>
+        <div class="mb-4"></div>
+      </div>
+      <div class="col-md-4" data-aos="zoom-in" data-aos-delay="0">
+        <div class="box2 ml-4 mx-auto">
+          <div class="circle mt-2 ml-4">
+            <i class="bi bi-house-door-fill icons1 "></i>
+          </div>
+        <div class="circle1">
+          <p class="text-center text-light">accumsan id nisi in ullamcorper Nullam. </p>
+        </div>
+        </div>
+        <div class="mb-4"></div>
+      </div>
+      <div class="col-md-4" data-aos="zoom-in" data-aos-delay="0">
+        <div class="box3 mx-auto">
+          <div class="circle mt-2 ml-4">
+            <i class="bi bi-diagram-3-fill icons1 t"></i>
+          </div>
+          <div class="circle1">
+            <p class="text-center text-light">accumsan id nisi in ullamcorper Nullam. </p>
+          </div>
+        </div>
+        <div class="mb-4"></div>
+      </div>
+    </div>
+  </section>
+
+<!--chefs-->
+
+<section class="overl background">
+  <div class="why"data-aos="zoom-in" data-aos-delay="0">
+    <p class="fonts text-light ml-5 why pt-5">WHITH US ___________</p>
+    <h2 class=" ml-5 texture"><b>Our Proffesional Chefs</b></h2>
+  </div>
+<div class="container-fluid ">
+<div class="row ml-3 mt-5 space">
+  <div class="col-md-4" data-aos="zoom-in" data-aos-delay="0">
+  <div class="founder_circle fc fc1">
+      <div class="icon_cir mx-auto">
+      <h5 class="text-center">David Malaan</h5>
+      <p class="text-center">Chefs</p>
+      <div class="under_icon mx-auto">
+      <i class="bi bi-facebook"></i>
+      <i class="bi bi-twitter"></i>
+      <i class="bi bi-linkedin"></i></div>
+    </div>
+  </div>
+  <div class="mb-4"></div>
+</div>
+  <div class="col-md-4" data-aos="zoom-in" data-aos-delay="0">
+  <div class="founder_circle1 fc fc1">
+    <div class="icon_cir mx-auto">
+      <h5 class="text-center">Andres jhohne</h5>
+      <p class="text-center">Chefs</p>
+      <div class="under_icon mx-auto">
+      <i class="bi bi-facebook"></i>
+      <i class="bi bi-twitter"></i>
+      <i class="bi bi-linkedin"></i></div>
+  </div>
+</div>
+<div class="mb-4"></div>
+</div>
+  <div class="col-md-4" data-aos="zoom-in" data-aos-delay="0">
+  <div class="founder_circle2 fc fc1">
+    <div class="icon_cir mx-auto">
+      <h5 class="text-center">Miche Balak</h5>
+      <p class="text-center">Chefs</p>
+      <div class="under_icon mx-auto">
+      <i class="bi bi-facebook"></i>
+      <i class="bi bi-twitter"></i>
+      <i class="bi bi-linkedin"></i></div>
+  </div>
+</div></div>
+</div>
+</div>
+</div>
+</section>
+
+<!--carasol-->
+
+<section class="overl background">
+      <div class="row">
+    <div class="col-md-12 text-center"><h5 class="text-center mt-5 text-light">KLASSY WEEK</h5></div>
+    <div class="col-md-12"><h2 class="text-center texture"><b>Our Feedback Rules</b></h2></div>
+  </div>
+<div class="container mt-5">
+        <div class="carousel_main owl-carousel" data-aos="fade-up" data-aos-delay="0">
+                <!-- first -->
+                    <div class="col-md-10 carousel_card ml-5 bc">
+                        <div class="col-md-12 bc mx-auto shadow">
+                            <h3 class="text-center texture fonts"><b>FeedBack of people</b></h3>
+                  <ul class="all_text mt-3 text-light">
+                <li> hilo 30 Days Trial Features</li>
+                <li>Synced To Cloud Database</li>
+                <li>10 Hours Of Support</li>
+                <li>Social Media Integration</li>
+                <li>Unlimited Features</li>
+                <li>10 Hours Of Support</li>
+                <li>Social Media Integration</li>
+              </ul>
+                        <div class="row ">
+                            <center><img src="img\testi2.jpg" class="cal_img ml-3"></center>
+                      <div class="col-md-5">
+                        <h5 class="texture">Founder</h5><p class="text-light">Royalnix</p>
+                      </div>
+                      <div class="mx-auto text-warning lead star_span">
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <span>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            </span>
+                          <div class="mb-5"></div>
+                        </div>
+                      </div>
+                      </div>                       
+                    </div>
+                   
+                    <!-- Second -->
+                    <div class="col-md-10 carousel_card ml-5 bc" data-aos="zoom-in" data-aos-delay="0">
+                        <div class="col-md-12 mx-auto shadow bc">
+                        <h3 class="text-center texture fonts"><b>FeedBack of people</b></h3>
+                <ul class="all_text mt-3 text-light">
+                <li> hiyang 30 Days Trial Features</li>
+                <li>Synced To Cloud Database</li>
+                <li>10 Hours Of Support</li>
+                <li>Social Media Integration</li>
+                <li>Unlimited Features</li>
+                <li>10 Hours Of Support</li>
+                <li>Social Media Integration</li>
+              </ul>
+                        <div class="row ">
+                            <center><img src="img\testi3.jpg" class="cal_img ml-3"></center>
+                      <div class="col-md-5">
+                        <h5 class="texture">Founder</h5><p class="text-light">Royalnix</p>
+                      </div>
+                      <div class="mx-auto text-warning lead star_span">
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <span>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            </span>
+                          <div class="mb-5"></div>
+                        </div>
+                      </div>
+                      </div>                       
+                    </div>
+                   
+                    <!-- Third -->
+                    <div class="col-md-10 carousel_card ml-5 bc" data-aos="zoom-in" data-aos-delay="0">
+                        <div class="col-md-12 mx-auto shadow bc">
+                            <h3 class="text-center texture fonts"><b>FeedBack of people</b></h3>
+                <ul class="all_text mt-3 text-light">
+                <li> hio 30 Days Trial Features</li>
+                <li>Synced To Cloud Database</li>
+                <li>10 Hours Of Support</li>
+                <li>Social Media Integration</li>
+                <li>Unlimited Features</li>
+                <li>10 Hours Of Support</li>
+                <li>Social Media Integration</li>
+              </ul>
+                        <div class="row ">
+                            <center><img src="img\testi2.jpg" class="cal_img ml-3"></center>
+                      <div class="col-md-5">
+                        <h5 class="texture">Founder</h5><p class="text-light">Royalnix</p>
+                      </div>
+                      <div class="mx-auto text-warning lead star_span">
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <span>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            </span>
+                          <div class="mb-5"></div>
+                        </div>
+                      </div>
+                      </div>                       
+                    </div>
+                    <!-- Fourth -->
+                        <div class="col-md-10 carousel_card ml-5 bc" data-aos="zoom-in" data-aos-delay="0">
+                        <div class="col-md-12 mx-auto shadow bc">
+                            <h3 class="text-center texture fonts"><b>FeedBack of people</b></h3>
+                <ul class="all_text mt-3 text-light">
+                <li> hi 30 Days Trial Features</li>
+                <li>Synced To Cloud Database</li>
+                <li>10 Hours Of Support</li>
+                <li>Social Media Integration</li>
+                <li>Unlimited Features</li>
+                <li>10 Hours Of Support</li>
+                <li>Social Media Integration</li>
+              </ul>
+                        <div class="row ">
+                            <center><img src="img\testi3.jpg" class="cal_img ml-3"></center>
+                      <div class="col-md-5">
+                        <h5 class="texture">Founder</h5><p class="text-light">Royalnix</p>
+                      </div>
+                      <div class="mx-auto text-warning lead star_span">
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <span>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            </span>
+                       <div class="mb-5"></div>
+                        </div>
+                      </div>
+                      </div>                       
+                    </div>
+              
+                    <!-- fifth -->
+                          <div class="col-md-10 carousel_card ml-5 bc">
+
+                        <div class="col-md-12 mx-auto shadow bc">
+                            <h3 class="text-center texture fonts"><b>FeedBack of people</b></h3>
+                <ul class="all_text mt-3 text-light">
+                <li> hlo 30 Days Trial Features</li>
+                <li>Synced To Cloud Database</li>
+                <li>10 Hours Of Support</li>
+                <li>Social Media Integration</li>
+                <li>Unlimited Features</li>
+                <li>10 Hours Of Support</li>
+                <li>Social Media Integration</li>
+              </ul>
+                <div class="row ">
+
+                            <center><img src="img\testi3.jpg" class="cal_img ml-3 mx-auto"></center>
+                      
+                      <div class="col-md-5">
+                        <h5 class="texture">Founder</h5><p class="text-light">Royalnix</p>
+                      </div>
+                      <div class="mx-auto text-warning lead star_span">
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <span>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            </span>
+                            <div class="mb-5"></div>
+                        </div>
+                      </div>
+                      </div>                       
+                    </div>
+                  <div class="col-md-10 carousel_card ml-5 bc">
+
+                  <div class="col-md-12 mx-auto shadow bc">
+                <h3 class="text-center texture fonts"><b>FeedBack of people</b></h3>
+                <ul class="all_text mt-3 text-light">
+                <li> hlo 30 Days Trial Features</li>
+                <li>Synced To Cloud Database</li>
+                <li>10 Hours Of Support</li>
+                <li>Social Media Integration</li>
+                <li>Unlimited Features</li>
+                <li>10 Hours Of Support</li>
+                <li>Social Media Integration</li>
+
+              </ul>
+                <div class="row ">
+                          
+                            <center><img src="img\testi3.jpg" class="cal_img ml-3"></center>
+                    
+                      <div class="col-md-5">
+                        <h5 class="texture">Founder</h5><p class="text-light">Royalnix</p>
+                      </div>
+                      <div class="mx-auto text-warning lead star_span">
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <span>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            </span>
+                            <div class="mb-5"></div>
+                        </div>
+                      </div>
+                      </div>                       
+                    </div>
+                  </div>
+                </div>
+              </section>
+   <script>
+        $(".carousel_main").owlCarousel({
+            margin: 10,
+            loop: true,
+            autoplay: true,
+            autoplayTimeout: 2000,//2000 ms=2 sec
+            autoplayHoverPause: true,
+            responsive:{
+                0:{
+                    items:1,
+                    nav:false
+                },
+                774:{
+                    items:2,
+                    nav:false
+                },
+                996:{
+                    items:3,
+                    nav:false
+                } 
+            }
+        });
+</script>
+
+<!--gallery-->
+
+<section class="overl background">
+    <div class="why">
+    <p class="fonts text-light ml-5 why pt-5">GALLERY_______</p>
+    <h2 class=" ml-5 texture"><b>Some photos from Our Restaurant</b></h2>
+  </div>
+  <div class="row mt-4">
+  <div class="col-md-3 main_hover"data-aos="zoom-in" data-aos-delay="0" >
+    <img src="img/gallery-6.jpg" onclick="openModal();currentSlide(1)" class="hover-shadow light_img ">
+    <div class="plush " onclick="openModal();currentSlide(1)" class="hover-shadow light_img">      <i class="bi bi-plus-lg text-light light_icon "></i></div>
+  <div class="mb-3"></div>
+</div>
+  <div class="col-md-3"data-aos="zoom-in" data-aos-delay="0">
+    <img src="img/gallery-5.jpg" onclick="openModal();currentSlide(2)" class="hover-shadow light_img">
+    <div class="plush background" onclick="openModal();currentSlide(1)" class="hover-shadow light_img">      <i class="bi bi-plus-lg text-light light_icon "></i></div>
+    <div class="mb-3"></div>
+  </div>
+  <div class="col-md-3"data-aos="zoom-in" data-aos-delay="0">
+    <img src="img/gallery-4.jpg" onclick="openModal();currentSlide(3)" class="hover-shadow light_img">
+    <div class="plush background" onclick="openModal();currentSlide(1)" class="hover-shadow light_img">      <i class="bi bi-plus-lg text-light light_icon "></i></div>
+    <div class="mb-3"></div>
+  </div>
+  <div class="col-md-3"data-aos="zoom-in" data-aos-delay="0">
+    <img src="img/gallery-7.jpg" onclick="openModal();currentSlide(4)" class="hover-shadow light_img">
+    <div class="plush background" onclick="openModal();currentSlide(1)" class="hover-shadow light_img">      <i class="bi bi-plus-lg text-light light_icon "></i></div>
+    <div class="mb-3"></div>
+  </div>
+    <div class="col-md-3"data-aos="zoom-in" data-aos-delay="0">
+    <img src="img/gallery-2.jpg" onclick="openModal();currentSlide(4)" class="hover-shadow light_img">
+    <div class="plush background" onclick="openModal();currentSlide(1)" class="hover-shadow light_img">      <i class="bi bi-plus-lg text-light light_icon "></i></div>
+    <div class="mb-3"></div>
+  </div>
+    <div class="col-md-3"data-aos="zoom-in" data-aos-delay="0">
+    <img src="img\drink.jpg" onclick="openModal();currentSlide(4)" class="hover-shadow light_img">
+    <div class="plush background" onclick="openModal();currentSlide(1)" class="hover-shadow light_img">      <i class="bi bi-plus-lg text-light light_icon "></i></div>
+    <div class="mb-3"></div>
+  </div>
+    <div class="col-md-3"data-aos="zoom-in" data-aos-delay="0">
+    <img src="img\gallery.jpg" onclick="openModal();currentSlide(4)" class="hover-shadow light_img">
+    <div class="plush background" onclick="openModal();currentSlide(1)" class="hover-shadow light_img">      <i class="bi bi-plus-lg text-light light_icon "></i></div>
+    <div class="mb-3"></div>
+  </div>
+    <div class="col-md-3"data-aos="zoom-in" data-aos-delay="0">
+    <img src="img\people.webp" onclick="openModal();currentSlide(4)" class="hover-shadow light_img">
+    <div class="plush background" onclick="openModal();currentSlide(1)" class="hover-shadow light_img">
+      <i class="bi bi-plus-lg text-light light_icon "></i>
+    </div>
+    <div class="mb-3"></div>
+  </div>
+</div>
+
+<!-- The Modal/Lightbox -->
+<div id="myModal" class="modal">
+  <span class="close cursor" onclick="closeModal()">&times;</span>
+  <div class="modal-content">
+
+    <div class="mySlides">
+      <div class="numbertext">1 / 4</div>
+      <img src="img\gallery-6.jpg" class="demo1">
+    </div>
+        <div class="mySlides">
+      <div class="numbertext">1 / 4</div>
+      <img src="img\gallery-5.jpg" class="demo1">
+    </div>
+        <div class="mySlides">
+      <div class="numbertext">1 / 4</div>
+      <img src="img\gallery-4.jpg" class="demo1">
+    </div>
+        <div class="mySlides">
+      <div class="numbertext">1 / 4</div>
+      <img src="img\gallery-7.jpg" class="demo1">
+    </div>
+            <div class="mySlides">
+      <div class="numbertext">1 / 4</div>
+      <img src="img\gallery-2.jpg" class="demo1">
+    </div>
+            <div class="mySlides">
+      <div class="numbertext">1 / 4</div>
+      <img src="img\drink.jpg" class="demo1">
+    </div>
+            <div class="mySlides">
+      <div class="numbertext">1 / 4</div>
+      <img src="img\gallery.jpg" class="demo1">
+    </div>
+            <div class="mySlides">
+      <div class="numbertext">1 / 4</div>
+      <img src="img\people.webp" class="demo1">
+    </div>
+  </div>
+
+    <!-- Next/previous controls -->
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+    <!-- Caption text -->
+    <div class="caption-container">
+      <p id="caption"></p>
+    </div>
+  </div>
+</div>
+</section>
+
+<script>
+// Open the Modal
+function openModal() {
+  document.getElementById("myModal").style.display = "block";
+}
+// Close the Modal
+function closeModal() {
+  document.getElementById("myModal").style.display = "none";
+}
+var slideIndex = 1;
+showSlides(slideIndex);
+
+// Next/previous controls
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+// Thumbnail image controls
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("demo");
+  var captionText = document.getElementById("caption");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+  captionText.innerHTML = dots[slideIndex-1].alt;
+}
+</script>
+
+<!--from-->
+
+<section class="overl background">
+    <div class="why">
+    <p class="fonts text-light ml-5 why pt-5">Reservation_______</p>
+    <h2 class=" ml-5 texture"><b>Book a Table</b></h2>
+  </div>
+  <div class="container mt-5">
+    <div class="row">
+      <div class="col-md-4 hlo ">
+        <input type="text" class="form-control border border-light bg-dark"data-aos="zoom-in" data-aos-delay="0" id="p1" placeholder="Your Name*">
+        <div class="mb-4"></div>
+      </div>
+      <div class="col-md-4 hlo">
+        <input type="text" class="form-control border border-light bg-dark"data-aos="zoom-in" data-aos-delay="0" id="p1" placeholder="Email*">
+       <div class="mb-4"></div>
+      </div>
+      <div class="col-md-4 hlo">
+        <input type="text" class="form-control border border-light bg-dark"data-aos="zoom-in" data-aos-delay="0" id="p1" placeholder="Phone Number*">
+        <div class="mb-4"></div>
+      </div>
+      <div class="col-md-4 hlo">
+        <input type="text" class="form-control border border-light bg-dark"data-aos="zoom-in" data-aos-delay="0" id="p1" placeholder="Re No*">
+        <div class="mb-4"></div>
+      </div>
+      <div class="col-md-4 hlo">
+        <input type="text" class="form-control border border-light bg-dark"data-aos="zoom-in" data-aos-delay="0" id="p1" placeholder="Your Name*">
+        <div class="mb-4"></div>
+      </div>
+
+        <div class="col-md-4 hlo">
+        <input type="text" class="form-control border border-light bg-dark"data-aos="zoom-in" data-aos-delay="0" id="p1" placeholder="PIN no">
+        <div class="mb-4"></div>
+      </div>
+      <div class="col-md-12 hlo">
+         <textarea class="form-control border border-light"data-aos="zoom-in" data-aos-delay="0" id="exampleFormControlTextarea1" rows="3"placeholder="Messages"></textarea>
+        <div class="mb-4"></div>
+      </div>
+      <div class="row mx-auto">
+        <div class="col-md-12 mx-auto">
+          <button type="button" class="btn btn text-light but border border-light"data-aos="zoom-in" data-aos-delay="0">Book a Table</button>
+          <div class="mb-5"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!--video part-->
+
+<section class="overl background">
+  <div class="container">
+  <div class="row">
+    <div class="col-md-5 video_img mt-4" data-aos="fade-up-right" data-aos-delay="0">
+      <div class="vid">
+        <div class="row">
+          <div class="col-md-3">
+      <i class="bi bi-play-circle text-warning del_text ml-4 vid_icon" onclick="show_video();"></i>
+      </a>
+    </div>
+    <div class="col-md-9">
+      <h5 class="text-light mt-3 ml-3">Video</h5>
+      <h6 class="text-light ">Resturent Like There is No</h6>
+    </div>
+      </div>
+    </div>
+  </div>
+    <div class="col-md-6 ml-3 mt-5">
+      <h3 class="texture mt-4 ml-3"><b>Talk To Local And The Get The Best Resturent Location</b></h3>
+      <h5 class="text-light ml-3">Resturent Throught USA</h5>
+      <div class="underline ml-3"></div>
+      <p class="text-light mt-4 text-justify ml-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+      quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+      consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+      cillum dolore eu fugiat.</p>
+       <button type="button" class="btn btn text-light button1 border border-light  ml-3"data-aos="fade-right" data-aos-delay="0">Learn More</button>
+    </div>
+  </div>
+  <div class="mb-5"></div>
+</div>
+</section>
+<script type="text/javascript">
+  function show_video(){
+    document.getElementById("video-poup").style.display="block";
+  }
+  function hide_video(){
+   document.getElementById("video-poup").style.display="none"; 
+  }
+</script>
+
+<!--map from-->
+
+<section class="overl background">
+  <div clas="container-fluid map mt-5">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d317718.69319292053!2d-0.3817765050863085!3d51.528307984912544!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47d8a00baf21de75%3A0x52963a5addd52a99!2sLondon%2C%20UK!5e0!3m2!1sen!2sin!4v1688352206235!5m2!1sen!2sin" width="1100" height="300" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"class="map"></iframe>
+  </div>
+  <div class="container background mt-5">
+    <div class="row">
+    <div class="col-md-5" data-aos="zoom-out" data-aos-delay="0">
+      <div class="i2"></div>
+    </div>
+    <div class="col-md-6 ml-1 mt-3">
+          <div class="why background">
+    <h2 class=" texture"><b>Get Touch Way</b></h2>
+  </div>
+      <div class="row mt-5">
+      <div class="col-md-6 hlo">
+        <from>
+        <input type="text" class="form-control"data-aos="zoom-in" data-aos-delay="0" id="p1" placeholder="Your Name*">
+        <div class="mb-4"></div>
+      </div>
+      <div class="col-md-6 hlo">
+        <input type="text" class="form-control border border-light "data-aos="zoom-in" data-aos-delay="0" id="p1" placeholder="Your Email*">
+       <div class="mb-4"></div>
+      </div>
+      <div class="col-md-12 hlo">
+        <input type="text" class="form-control border border-light "data-aos="zoom-in" data-aos-delay="0" id="p1" placeholder="Subject">
+        <div class="mb-4"></div>
+      </div>
+      <div class="col-md-12 hlo">
+      <textarea class="form-control border border-light"data-aos="zoom-in" data-aos-delay="0" id="exampleFormControlTextarea1" rows="3"placeholder="Messages"></textarea>
+        <div class="mb-4"></div>
+      </div>
+      <div class="row mx-auto">
+        <div class="col-md-12 mx-auto">
+          <button type="button" class="btn btn text-light but border border-light"data-aos="zoom-in" data-aos-delay="0">Book a Table</button>
+          <div class="mb-5"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</from>
+<div class="mb-5"></div>
+</div>
+</section>
+
+<!--footer-->
+
+<section class="overl bc">
+      <div class="container mt-5">
+    <div class="row ml-1">
+      <div class="col-md-3">
+        <h6 class="text-warning ">Quick Links</h6>
+        <ul class=" p mt-2">
+          <li class="mt-2"data-aos="zoom-in" data-aos-delay="0"><a href="#" class="s"><i class="bi bi-envelope-at mail ic"></i> admin@resturent2.org</a></li>  
+          <li class="mt-2"data-aos="zoom-in" data-aos-delay="0"><a href="#" class="s mt-1"><i class="bi bi-house-door-fill ic"></i> kolkata 7000012,Saltlake,5690f</a></li>  
+          <li class="mt-2"data-aos="zoom-in" data-aos-delay="0"><a href="#" class="s mt-1"><i class="bi bi-phone ic"></i> 086907765 430764421</a></li> 
+        </ul>
+      </div>
+      <div class="col-md-2">
+      <h6 class="text-warning ">Popular Post</h6>
+      <ul class=" p mt-2">
+          <li><a href="#" class="s "data-aos="zoom-in" data-aos-delay="0">Home</a></li>
+                <li><a href="#" class="s "data-aos="zoom-in" data-aos-delay="0">About Us</a></li>
+                <li><a href="#" class="s "data-aos="zoom-in" data-aos-delay="0">Create</a></li>
+                <li><a href="#" class="s "data-aos="zoom-in" data-aos-delay="0">Service</a></li>
+                <li><a href="#" class="s"data-aos="zoom-in" data-aos-delay="0">Team</a></li>
+                <li><a href="#" class="s "data-aos="zoom-in" data-aos-delay="0"data-aos-duration="2000">Team & Service</a></li>
+        </ul>
+      </div>
+      <div class="col-md-3">
+        <h6 class="text-warning">Contact Info</h6>
+        <ul class=" p ml-2 mt-2">
+          <li><a href="#" class="s"data-aos="zoom-in" data-aos-delay="0">Web Design</a></li>
+                <li><a href="#" class="s "data-aos="zoom-in" data-aos-delay="0">Payment</a></li>
+                <li><a href="#" class="s "data-aos="zoom-in" data-aos-delay="0">Web development</a></li>
+                <li><a href="#" class="s "data-aos="zoom-in" data-aos-delay="0">App Development</a></li>
+                <li><a href="#" class="s "data-aos="zoom-in" data-aos-delay="0">Product Management</a></li>
+                <li><a href="#" class="s "data-aos="zoom-in" data-aos-delay="0">FAQ</a></li>
+        </ul>
+      </div>
+      <div class="col-md-4">
+        <h6 class="text-warning ">Our Newsletter</h6>
+        <p class="text-light"data-aos="zoom-in" data-aos-delay="0">Tamen quem nulla quae legam mult
+        </p>
+        <div class="inputs hlo">
+        <input type="text" class="form-control border border-light py-4 in_foot"placeholder="Text" id="p1">
+        <button type="button" class="btn btn rounded text-dark border border-light botton  bg-warning ">Subscribe</button>
+      </div>
+        <div class="f_icon mt-3">
+          <a href="#" class="btn btn-outline-light rounded-circle mt-2"data-aos="zoom-in" data-aos-delay="0"><i class="fa fa-facebook fb" aria-hidden="true"></i></a>
+           <a href="#" class="btn btn-outline-light rounded-circle mt-2"data-aos="zoom-in" data-aos-delay="0"><i class="fa fa-linkedin fb" aria-hidden="true"></i></a>
+           <a href="#" class="btn btn-outline-light rounded-circle mt-2"data-aos="zoom-in" data-aos-delay="0"><i class="fa fa-telegram fb" aria-hidden="true"></i></a>
+           <a href="#" class="btn btn-outline-light rounded-circle mt-2"data-aos="zoom-in" data-aos-delay="0"><i class="bi bi-instagram fb"></i></a>
+           <a href="#" class="btn btn-outline-light rounded-circle mt-2"data-aos="zoom-in" data-aos-delay="0"><i class="bi bi-messenger fb"></i></a>
+          <div class="mb-2"></div>
+        </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!--footer bottom-->
+
+<section class="ovrerl">
+  <div class="container-fluid footer_bottom">
+    <div class="row">
+      <div class="col-md-12 text-center">
+        <h6 class="text-light mt-5">© Copyright 2023 Restaurantly. All Rights Reserved</h6>
+      </div>
+      <div class="col-md-12 text-center">
+        <p class="text-light">Designed by SRABANTI DHAR</p>
+      </div>
+    </div>
+  </div>
+</section>
+<a href="#" class="to_top"><img src="img\cap1.png"class="chef"></a>
+
+<script type="text/javascript">
+const toTop=document.querySelector(".to_top");
+window.addEventListener("scroll",() =>{
+    if(window.pageYOffset > 100){
+        toTop.classList.add("active");
+    }
+    else{
+        toTop.classList.remove("active");}
+})
+</script>
+
+<script type="text/javascript">
+window.onscroll = function() {myFunction()};
+
+var header = document.getElementById("myHeader");
+var sticky = header.offsetTop;
+
+function myFunction() {
+  if (window.pageYOffset > sticky) {
+    header.classList.add("sticky");
+  } else {
+    header.classList.remove("sticky");
+  }
+}
+</script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+ <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+ <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>-->
+  <!-- Jquery -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous"></script>
+<!-- Owl Carousel -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
+</body>
+</html>
